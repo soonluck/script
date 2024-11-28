@@ -221,7 +221,7 @@ local function stopFloating()
     end
     floating = false
     if targetPlayer and targetPlayer.Character and targetPlayer.Character.PrimaryPart then
-        local returnPosition = targetPlayer.Character.PrimaryPart.Position + Vector3.new(0, -20, 0)
+        local returnPosition = targetPlayer.Character.PrimaryPart.Position + Vector3.new(0, -30, 0)
         smoothMove(returnPosition)
     end
 end
