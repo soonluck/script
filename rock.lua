@@ -205,7 +205,7 @@ local function startFloating(character)
                     smoothMove(newPosition)
                 else
                     if character.PrimaryPart then
-                        local newPosition = character.PrimaryPart.Position + Vector3.new(0, -15, 0)
+                        local newPosition = character.PrimaryPart.Position + Vector3.new(0, -30, 0)
                         smoothMove(newPosition)
                     end
                 end
